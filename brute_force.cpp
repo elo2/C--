@@ -15,6 +15,7 @@ void brute_force(int shift) {
 		unsigned char ch;
 		int temp, last = 0;
 		while(!fin.eof()) {
+			fout << "This is number " << shift << endl;
 			fin >> noskipws >> ch;
 			temp = int(ch) - last - shift;
 			if (temp < 0) {
@@ -31,7 +32,7 @@ void brute_force(int shift) {
 }
 
 int main() {
-	for (int i=0; i < 10; i++) {
+	for (int i = 1; i < 255; i++){
 		brute_force(i);
 	}
 	return 0;
