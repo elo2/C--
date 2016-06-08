@@ -1,4 +1,4 @@
-##C++
+# C++
 Just for fun!
 These are some C++ programs I have made myself. 
 Usually to do small things that I want, or I was given a challenge or whatnot. 
